@@ -1,18 +1,25 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #F6F8FC;
 }
+
+
 
 .content {
     width: 100vw;
-    height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #FFF;
+    height: 100vh;
 }
+
+
+
+
 
 @media screen and (min-width: 992px) {
     .content {
@@ -22,3 +29,4 @@ body {
         border-radius: 1rem;
     }
 }
+
